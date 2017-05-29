@@ -18,7 +18,7 @@
 			</header>
 		<!-- Banner -->
 			<section id="banner">
-				<h2>Spatial</h2>
+				<h2>Speech Recognition pada Interactive Voice Response</h2>
 				<p>Lorem ipsum dolor sit amet nullam consequat <br /> interdum vivamus donce sed libero.</p>
 			</section>
 
@@ -28,13 +28,29 @@
 						<div class="row 200%">
 							<div class="6u 12u$(medium)">
 								<header class="major">
-									<h2>Maecenas luctus lectus</h2>
-									<p>Perspiciatis doloremque recusandae dolor</p>
+									<h2>Interactive Voice Response</h2>
+									<p>(IVR)</p>
 								</header>
 							</div>
 							<div class="6u$ 12u$(medium)">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ea mollitia corporis id, distinctio sunt veritatis officiis dolore reprehenderit deleniti voluptatibus harum magna, doloremque alias quisquam minus, eaque. Feugiat quod, nesciunt! Iste quos ipsam, iusto sit esse.</p>
-								<p>Dolorum aspernatur maxime libero ratione quidem distinctio, placeat fugiat laborum voluptatum enim neque soluta vel sunt id ex veritatis. Labore rerum, odit sapiente, alias mollitia magnam exercitationem modi amet earum quia atque ipsum voluptas asperiores quas laboriosam.</p>
+								<p>IVR, atau Interactive Voice Response, merupakan sistem yang sering digunakan oleh perusahaan-perusahaan untuk berperan sebagai customer service. IVR umumnya ditujukan untuk menjawab pertanyaan-pertanyaan yang pendek maupun melakukan fungsi-fungsi sederhana terkait layanan yang disediakan oleh perusahaan. 
+								Sebagai contoh, dalam sebuah perusahaan perbankan, IVR umum digunakan untuk mengecek saldo ataupun melakukan transfer. Dan bahkan, penggunaan IVR tidak terbatas pada perusahaan - institusi seperti maskapai penerbangan dan universitas pun dapat menggunakan IVR.  Singkatnya, IVR dapat digunakan oleh berbagai jenis institusi untuk memberikan pelayanan konsumen sesuai bidang instutsi tersebut.
+								Sistem IVR bekerja menggunakan rekaman suara manusia untuk mengajukan daftar layanan yang dapat dilakukan kepada penelpon. Penelpon kemudian akan memberikan respon terhadap IVR, dan IVR dapat memberikan jawaban, melakukan suatu fungsi, ataupun mengajukan daftar yang lebih spesifik tergantung kepada respon yang diterima. 
+								Dahulu, IVR umumnya menggunakan tombol telepon sebagai bentuk respon yang valid (metode DTMF). Namun, seiring berkembangnya teknologi di bidang intelejensia buatan (khususnya speech processing), IVR mulai mengadopsi teknik speech recognition untuk menerima respon terhadap sistem. Dengan menggunakan speech recognition, penelepon dapat memberi respon dengan cara berkata-kata, yang jauh lebih interaktif dan diminati konsumen 
+								ketimbang hanya mendengarkan suara mesin kemudian menekan tombol-tombol.
+								</p>
+								<p>
+								Speech recognition merupakan bidang yang berfokus pada kemampuan komputer untuk mengenali bahasa yang diucapkan oleh manusia. Pengenalan terhadap bahasa yang diucapkan ini kemudian dapat digunakan baik untuk melakukan pencarian di search engine, membuat reminder, menelepon, atau sekedar mencatat kalimat yang diucapkan. Bidang ini merupakan salah satu bidang yang paling kompleks dalam ilmu komputer, dikarenakan luasnya cakupan ilmu yang diperlukan (speech recognition setidaknya memerlukan ilmu komputer, statistik, dan linguistik). Beberapa cara yang digunakan untuk melakukan speech recognition diantaranya : 
+								<ul>
+									<li> <p> Simple pattern matching : Pattern matching yang dimaksud di sini adalah pencocokkan antara satu kata yang diucapkan dengan daftar kata singkat yang dimiliki oleh komputer. Biasanya, pattern matching hanya mengakomodasi kata sederhana seperti angka nol s.d. 9 atau 'yes' dan 'no'. Pattern matching tidak memerlukan pengetahuan sintaks maupun semantic kata yang diucapkan. Komputer hanya akan mengubah kata yang diucapkan menjadi data menggunakan alat bernama ADC (Analog to Digital Converter, sebuah alat untuk mengubah sinyal analog menjadi sinyal digital). Kemudian, komputer akan melakukan pencarian pada daftar kata yang diakomodasi,
+										dan melaksanakan instruksi sesuai hasil pencarian. </p></li>
+									<li> <p> Pattern and Feature Analysis : Cara ini memecah kalimat yang dicaupkan menjadi kata, dan setiap kata dipecah menjadi phonem. (Phonem merupakan satuan bahasa yang secara sederhana dapat diartikan 'suara dasar' yang membentuk kata. Setiap bahasa memiliki suara dasar yang berbeda-beda, sehingga data phonem yang diperlukan untuk melakukan pattern and feature analysis di tiap bahasa akan berbeda pula). Komputer kemudian akan melakukan pencocokan terhadap rangkaian phonem yang diucapkan. Cara ini lebih efektif karena ketimbang mencocokkan ucapan dengan ribuan daftar suara kata yang dimiliki, kita hanya perlu mencocokkan rangkaian suara 
+										dasarnya saja. </p> </li>
+									<li> <p> Statistical Analysis : Cara ini memanfaatkan pengelanan suara dasar ditambah struktur tata bahasa/grammar serta statistik untuk menentukan kata yang diucapkan. Sebagai contoh, ketika komputer mendeteksi sebuah kata benda, misalnya 'meja' dalam bahasa Indonesia, kata yang selanjutnya diucapkan kemungkinan besar merupakan kata sifat. Hal ini disebabkan struktur bahasa Indonesia yang menempatkan kata sifat setelah kata benda. Kemudian, komputer juga akan mempertimbangkan probabilitas kemunculan suatu phonem setelah phonem lain, kemungkinan kemunculan jeda antar phonem, kemungkinan kemunculan suatu kata setelah kata lain, dan banyak lagi
+										hingga komputer menghasilkan sebuah 'tebakan terbaik' - yakni kata yang memiliki probabilitas paling tinggi. </p><li>
+								</ul>
+								<p> Saat ini, kebanyakan IVR menggunakan cara simple pattern mathcing untuk memenuhi permintaan konsumen. Hal ini sesuai dengan sifat alami IVR yang hanya digunakan untuk melayani permintaan sederhana sebagai pengganti DTMF. Pertanyaan-pertanyaan sulit yang membutuhkan pengambilan keputusan sesuai konteks penelepon akan dialihkan IVR ke petugas customer service sesungguhnya. 
+								Seiring dengan berkembangnya speech recognition, natural language processing, dan machine learning, tidak mustahil apabila di masa depan IVR akan menerapkan teknologi yang sama dengan personal assistant untuk menangani pertanyaan-pertanyaan konsumen. IVR yang cukup cerdas untuk menjawab pertanyaan sulit dan mengambil keputusan berdasarkan data akan (hampir) sepenuhnya mampu menggantikan tugas manusia sebagai customer service. Namun, nampaknya kita masih harus menunggu beberapa tahun untuk melihat hal tersebut terjadi.</p>
 							</div>
 						</div>
 					</div>
